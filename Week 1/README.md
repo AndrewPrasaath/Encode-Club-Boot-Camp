@@ -5,7 +5,7 @@
 - Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed
 
 ## Function Executions
-**Contract Deployed Address:** [0x3774AC6DC02db6E265bff8fb37328947065f757D](https://goerli.etherscan.io/address/0x3774ac6dc02db6e265bff8fb37328947065f757d)
+**Contract Deployed Address (Goerli Testnet):** [0x3774AC6DC02db6E265bff8fb37328947065f757D](https://goerli.etherscan.io/address/0x3774ac6dc02db6e265bff8fb37328947065f757d)
 
 ### State variables values after contract creation
 text = "Hello World"\
