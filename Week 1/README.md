@@ -18,8 +18,8 @@ owner = 0xE8b8f17e8A0F2D152200c8dC7FB0114A340dDb69
 3. Now,  `helloWorld()` returned "Group 2".
 
 ### Interaction with ***transferOwnership()***
-1. `transferOwnership()` is called by the account `0xE8b8f17e8A0F2D152200c8dC7FB0114A340dDb69` with argument `0xe9C757DF8c8100C11bCBd3066981aBF69F605d63`. Transaction is successful.
+1. `transferOwnership()` is called by the account `0xE8b8f17e8A0F2D152200c8dC7FB0114A340dDb69` with argument `0xe9C757DF8c8100C11bCBd3066981aBF69F605d63`. Transaction is successful.\
    **Transaction Hash:** [0xc07928e5b3d5552e6f98a315148af8bfc30cbef3213f10cb02e3cd4d9d1e94f6](https://goerli.etherscan.io/tx/0xc07928e5b3d5552e6f98a315148af8bfc30cbef3213f10cb02e3cd4d9d1e94f6)
 2. `owner` now returns `0xe9C757DF8c8100C11bCBd3066981aBF69F605d63`.
-3. Again `transferOwnership()` is called by the account `0xE8b8f17e8A0F2D152200c8dC7FB0114A340dDb69` with argument `0xe9C757DF8c8100C11bCBd3066981aBF69F605d63`. Transaction is fail with error "Caller is not the owner" because of `onlyOwner` modifier access restriction.
+3. Again `transferOwnership()` is called by the account `0xE8b8f17e8A0F2D152200c8dC7FB0114A340dDb69` with argument `0xe9C757DF8c8100C11bCBd3066981aBF69F605d63`. Transaction is fail with error "Caller is not the owner" because of `onlyOwner` modifier access restriction.\
    **Transaction Hash:** [0x43e49d11b96714c850b7014bff7cadcd83fc701bf673059ae90b34710edfc1b9](https://goerli.etherscan.io/tx/0x43e49d11b96714c850b7014bff7cadcd83fc701bf673059ae90b34710edfc1b9)
